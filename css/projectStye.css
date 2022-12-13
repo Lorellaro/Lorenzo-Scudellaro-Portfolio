@@ -1,0 +1,74 @@
+.projectHero{
+    height: 180vh;
+    width: 100%;
+    background-image: url(../images/projectsBgd.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+    padding: 3%;
+    padding-right: 50%;
+    background-color: #1f2833;
+    border-radius: 5px;
+    
+}
+
+
+.content p{
+    color: #c5c6c7;
+    width: 62%;
+    margin-top: -15px;
+}
+
+.projectCard{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projectCard iframe{
+    width: 500px;
+    border-radius: 25px;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.content2{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 3%;
+    padding-left: 50%;
+    background-color: #1f2833;
+    border-radius: 5px;
+    
+}
+
+.content2 p{
+    color: #c5c6c7;
+    width: 62%;
+    margin-top: -15px;
+}
+
+.ytVid2{
+    width: 500px;
+    border-radius: 25px;
+    left: 10%;
+    margin-left: -250px;
+    position: absolute;
+    display: flex;
+    top: 100%;
+    transform: translateY(-50%);
+}

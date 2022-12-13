@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/LorenzoBGD.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top:  45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: #c5c6c7;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    color: #66fcf1;
+}
+
+span{
+    color: #45a29e;
+}
+
+span:hover{
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    transition: 0.4s;
+}
+
+nav ul li a{
+    color: #c5c6c7;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #66fcf1;
+    transition: 0.4s;
+}
+
+nav ul li:hover{
+    transform: scale(1.2);
+}
+
+.btn{
+    background-color: #1f2833;
+    color: #45a29e;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    color: #66fcf1;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: #66fcf1;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: #45a29e;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #1f2833;
+    outline: none;
+    border-radius: 30px;
+}
+
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #1f2833;
+    color: #45a29e;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+    transition: 0.2s;
+}
+
+.newsletter form input:last-child:hover{
+    color: #66fcf1;
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.07);
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #1f2833;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: #c5c6c7;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: #c5c6c7;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: #c5c6c7;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: transparent;
+    color: #c5c6c7;
+    text-decoration: none;
+    border: 1px solid #66fcf1;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 0.1px;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: #66fcf1;
+    color: #0b0c10;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.service{
+    background: #181e29;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: #c5c6c7;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #1f2833;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    transition: 0.4s;
+}
+
+.card i{
+    font-size:  50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #45a29e;
+}
+
+h5{
+    color: #c5c6c7;
+    font-size: 23px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.pra p{
+    color: #c5c6c7;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}  
+
+.card .button{
+    background-color: transparent;
+    color: #c5c6c7;
+    text-decoration: none;
+    border: 1px solid #66fcf1;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 0.1px;
+    transition: 0.4s;
+}
+
+.card .button:hover{
+    background-color: #66fcf1;
+    color: #0b0c10;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.card:hover{
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #1f2833;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p{
+    color: #c5c6c7;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two{
+    background-color: transparent;
+    color: #c5c6c7;
+    text-decoration: none;
+    border: 1px solid #66fcf1;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 0.1px;
+    transition: 0.4s;
+}
+
+.contact-me .button-two:hover{
+    background-color: #66fcf1;
+    color: #0b0c10;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 270px;
+    background: #0b0c10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: #c5c6c7;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    color: #c5c6c7;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0b0c10;
+    border-radius: 1%;
+    border: 1px solid #66fcf1;
+    margin: 22px 10px;
+    color: #c5c6c7;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social a:hover{
+    background-color: #66fcf1;
+    color: #0b0c10;
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.end{
+    position: absolute;
+    color: #c5c6c7;
+    bottom: 20px;
+    font-size: 14px;
+}
