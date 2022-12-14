@@ -90,6 +90,9 @@ h3{
     transition: 0.4s;
 }
 
+.projectContainer{
+    margin-top: 100px;
+}
 /*
 br {
     content: "";

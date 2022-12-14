@@ -37,6 +37,17 @@ nav {
     color: #66fcf1;
 }
 
+.logo a{
+    text-decoration: none;
+    color: #c5c6c7;
+    transition: 0.4s;
+}
+
+.logo a:hover{
+    color: #66fcf1;
+    transition: 0.4s;
+}
+
 span{
     color: #45a29e;
 }
@@ -109,6 +120,26 @@ h4{
     font-size: 20px;
 }
 
+.newsletter a {
+    background-color: transparent;
+    color: #c5c6c7;
+    text-decoration: none;
+    border: 1px solid #66fcf1;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 0.1px;
+    transition: 0.4s;
+}
+
+.newsletter a:hover{
+    background-color: #66fcf1;
+    color: #0b0c10;
+    cursor: pointer;
+    font-size: 1.05rem;
+    transition: 0.4s;
+}
+
+/*
 .newsletter form{
     width: 380px;
     max-width: 100%;
@@ -145,6 +176,7 @@ h4{
     transition: 0.2s;
     transform: scale(1.07);
 }
+*/
 
 .about{
     width: 100%;
