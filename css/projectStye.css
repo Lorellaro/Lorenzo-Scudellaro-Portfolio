@@ -2,21 +2,33 @@ h3{
     font-size: 18px;
 }
 
-.projectHero{
-    height: 180vh;
+.allProjects{
     width: 100%;
+    padding: 100px 0px;
+}
+
+.projectHero{
+    height: 300vh;
+    width: 100%;
+    position: absolute;
     background-image: url(../images/projectsBgd.png);
     background-size: cover;
     background-position: center;
 }
 
+.projectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    margin-top: 3%;
+}
+
 .content{
+    width: 50%;
+
     position: absolute;
-    top: 40%;
     left: 8%;
-    transform: translateY(-50%);
-    padding: 3%;
-    padding-right: 50%;
     background-color: #1f2833;
     border-radius: 5px;
 
@@ -30,19 +42,29 @@ h3{
 }
 
 .projectCard{
+    height: 565px;
+    width: 85%;
+    padding: 20px 35px;
+    background: #1f2833;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+
+/*
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+*/
 }
 
 .projectCard iframe{
     width: 500px;
     border-radius: 25px;
     left: 50%;
-    position: absolute;
+    position: relative;
     display: flex;
     top: 40%;
     transform: translateY(-50%);
@@ -51,15 +73,13 @@ h3{
 }
 
 .content2{
-    position: absolute;
-    top: 100%;
-    left: 0;
+    top: 50%;
     transform: translateY(-50%);
-    padding: 3%;
-    padding-left: 50%;
+
+    position: absolute;
     background-color: #1f2833;
     border-radius: 5px;
-    
+    left: 50%;
 }
 
 .content2 p{
@@ -68,14 +88,23 @@ h3{
     margin-top: -15px;
 }
 
-.ytVid2{
-    width: 500px;
+.ytvid1{
+    width: 40%;
     border-radius: 25px;
-    left: 10%;
-    margin-left: -250px;
-    position: absolute;
+    left: 42%;
+    position: relative;
     display: flex;
-    top: 100%;
+    top: 79%;
+    transform: translateY(-50%);
+}
+
+.ytVid2{
+    width: 40%;
+    border-radius: 25px;
+    right: 15%;
+    position: relative;
+    display: flex;
+    top: 79%;
     transform: translateY(-50%);
 }
 
@@ -90,9 +119,6 @@ h3{
     transition: 0.4s;
 }
 
-.projectContainer{
-    margin-top: 100px;
-}
 /*
 br {
     content: "";

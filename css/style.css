@@ -108,6 +108,12 @@ h1{
     font-size: 75px;
 }
 
+h2{
+    color: #66fcf1;
+    margin: 20px 0px 20px;
+    font-size: 62px;
+}
+
 h3{
     color: white;
     font-size: 25px;
@@ -252,7 +258,7 @@ button:hover{
 .title h2{
     color: whitesmoke;
     font-size: 75px;
-    width: 1130px;
+    /*width: 1130px;*/
     margin: 30px auto;
     text-align: center;
 }
