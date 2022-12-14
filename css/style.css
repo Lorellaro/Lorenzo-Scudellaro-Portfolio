@@ -171,14 +171,14 @@ h4{
 }
 
 .about-text h2{
-    color: #c5c6c7;
+    color: whitesmoke;
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
 .about-text h5{
-    color: #c5c6c7;
+    color: whitesmoke;
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
@@ -218,7 +218,7 @@ button:hover{
 }
 
 .title h2{
-    color: #c5c6c7;
+    color: whitesmoke;
     font-size: 75px;
     width: 1130px;
     margin: 30px auto;
@@ -243,12 +243,16 @@ button:hover{
     transition: 0.4s;
 }
 
-.card i{
+.card img{
     font-size:  50px;
+    width: 167px;
     display: block;
     text-align: center;
-    margin: 25px 0px;
+    margin: 5px 0px;
+    margin-left: 45px;
+    border-radius: 16px;
     color: #45a29e;
+    box-shadow: 5px 5px#0b0c1044;
 }
 
 h5{

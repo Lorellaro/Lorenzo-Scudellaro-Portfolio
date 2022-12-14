@@ -1,3 +1,7 @@
+h3{
+    font-size: 18px;
+}
+
 .projectHero{
     height: 180vh;
     width: 100%;
@@ -15,7 +19,7 @@
     padding-right: 50%;
     background-color: #1f2833;
     border-radius: 5px;
-    
+
 }
 
 
@@ -42,6 +46,8 @@
     display: flex;
     top: 40%;
     transform: translateY(-50%);
+    box-shadow: 5px 5px#0b0c1044;
+
 }
 
 .content2{
@@ -72,3 +78,23 @@
     top: 100%;
     transform: translateY(-50%);
 }
+
+.projectDetails a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #66fcf1;
+}
+
+.projectDetails a:hover{
+    color: #c5c6c7;
+    transition: 0.4s;
+}
+
+/*
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 24%;
+}
+*/
