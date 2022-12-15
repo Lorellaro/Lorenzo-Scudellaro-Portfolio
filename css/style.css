@@ -52,10 +52,6 @@ span{
     color: #45a29e;
 }
 
-span:hover{
-    
-}
-
 nav ul li{
     list-style-type: none;
     display: inline-block;
@@ -368,8 +364,8 @@ h5{
 footer{
     position: relative;
     width: 100%;
-    height: 270px;
-    background: #0b0c10;
+    height: 370px;
+    background: #101117;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -389,6 +385,29 @@ footer p:nth-child(2){
     width: 500px;
     text-align: center;
     line-height: 26px;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 25px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+footer ul li a{
+    color: #c5c6c7;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+footer ul li a:hover{
+    color: #66fcf1;
+    transition: 0.2s;
+}
+
+footer ul li:hover{
+    transform: scale(1.1);
 }
 
 .social{
