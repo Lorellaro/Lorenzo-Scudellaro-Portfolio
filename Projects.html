@@ -15,10 +15,10 @@
     <!--Nav-->
     <div class = "projectHero">
         <nav>
-            <h2 class="logo"><a href="./index.html"><span>Port</span>folio</a></h2>
+            <h2 class="logo"><a href="./index.html"><span>Lorenzo's </span>Portfolio</a></h2>
             <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="#">About Me</a></li>
+                <li><a href="./AboutMe.html">About Me</a></li>
                 <li><a href="./Projects.html">Projects</a></li>
                 <li><a href="./Skills.html">Skills</a></li>
                 <li><a href="./ContactMe.html">Contact Me</a></li>
@@ -27,16 +27,30 @@
     </div>
 
     <!--Project Container-->
+
+    
     <div class="allProjects">
-        <div class="projectContainer"> <!--box-->
+
+        <!-- Pogo Party -->
+        <a id="Pogo Party"></a>
+        <div class="projectContainer"> 
             <div class="projectCard">
                 <div class = "content">
-                    <h4>Project Piece</h4>
+                    <h4>Project Piece (2022)</h4>
                     <h2>Pogo Party</h2>
                     <h3><span>Role: </span>Lead C# Programmer, Lead 3d/2d Artist.
-                    <br><span>Tech Stack: </span>Unity, C#, Visual Studio, Blender, Adobe Illustrator, Adobe Photoshop</h3>
+                    <br><span>Tech Stack: </span>Unity, C#, Visual Studio, Blender, Adobe Illustrator, Adobe Photoshop, Trello, Photon Pun.</h3>
                     <div class="projectDetails">
-                        <p>Check out the steam page <a href="https://store.steampowered.com/app/2090120/Pogo_Party/">Here</a>  </p>
+                        <p>
+                            This was a project I worked on as my year 2 project for university in a team of three. It taught me how to lead and communicate with a team effectively. I would hold weekly meetings for us to decide on who was working on what, and what scenes and classes needed to be checked out. 
+                            This greatly helped us deconstruct tasks and make steady progress over time.
+                            <br> <br>
+                            I handled the code for the multiplayer logic, player physics and joints systems (the animated ragdolls, pogostick's behaviour) using Unity's rigidbody and joint system, powerups, and more minor tasks. I also did the low poly art, gameplay trailer, and UI/marketing thumbnails.
+                            <br> <br>
+                            For the audio we went on fiverr and hired <a href="https://www.fiverr.com/jijigri?source=inbox">jijigri</a> who I believe met our needs well!
+                            <br> <br>
+                            Check out the steam page <a href="https://store.steampowered.com/app/2090120/Pogo_Party/">Here</a>  
+                        </p>
                     </div>
                 </div>
                 <div class="ytvid1">
@@ -44,16 +58,26 @@
                 </div>
             </div>
         </div>
+
+        <!-- Flick Flipper -->
+        <a id="Flick Flipper"></a>
         <div class="projectContainer">
 
             <div class="projectCard">
                 <div class = "content2">
-                    <h4>Project Piece</h4>
+                    <h4>Project Piece (2022)</h4>
                     <h2>Flick Flipper</h2>
                     <h3><span>Role: </span>Solo Developed
-                    <br><span>Tech Stack: </span>Unity, C#, Visual Studio, Blender, Adobe Illustrator, Adobe Photoshop</h3>
+                    <br><span>Tech Stack: </span>Unity, C#, Visual Studio, Blender, Adobe Photoshop, XCode.</h3>
                     <div class="projectDetails">
-                        <p>Flick flipper is a mobile game I built over the period of a few months using Unity, C#, and 'Blender'.</p>
+                        <p>
+                            Flick flipper is a mobile game I built over the period of a few months. I wanted to give mobile development a try and it turned out to go smooth.
+                            <br><br>
+                            This is a project that I got to do some good testing for. Handing it out to many people that I can trust will give honest feedback (not close friends or family). 
+                            In doing this you learn how to fine tune the mechanics and level design, as well as many other thing that are very obvious to me but impossible to see for the regular user.
+                            <br> <br>
+                            I have plans to make a full release for this project, however, I still need to make more skins and levels.
+                        </p>
                     </div>
                 </div>
                 <div class="ytVid2">
@@ -62,38 +86,127 @@
             </div>
         </div>
 
-        <div class="projectContainer"> <!--box-->
+        <!-- RagSouls -->
+        <a id="RagSouls"></a>
+        <div class="projectContainer">
             <div class="projectCard">
                 <div class = "content">
-                    <h4>Project Piece</h4>
+                    <h4>Project Piece (2023)</h4>
                     <h2>RagSouls</h2>
-                    <h3><span>Role: </span>Lead C# Programmer, Lead 3d/2d Artist.
-                    <br><span>Tech Stack: </span>Unity, C#, Visual Studio, Blender, Adobe Illustrator, Adobe Photoshop</h3>
+                    <h3><span>Role: </span>Solo Developed.
+                    <br><span>Tech Stack: </span>Unity, C#, Visual Studio, Blender, Adobe Illustrator, Adobe Photoshop, Trello, Photon Pun.</h3>
                     <div class="projectDetails">
-                        <p>Check out the steam page <a href="https://store.steampowered.com/app/2090120/Pogo_Party/">Here</a>  </p>
+                        <p> 
+                            I wanted to try out an idea I had in my head for a few years. The blend between ragdolls, dark souls, and rogue-likes.
+                            <br> <br>
+                            This project had the largest of scopes I've had to do alone.
+                            To combat the scope, it was crucial I stuck to the plan and timeframe I laid out in the Gantt chart prior.
+                            <br> <br>
+                            A large conern I had whilst working on this project was the performance as trying to have lots of multiplayer synced rigidbodies can cause some issues. Due to this I spent a lot of time debugging 
+                            with Unity's in built profiler.
+                            I also had to manage the performance of other elements in the game, I did this by making sure vert counts were reasonable, 
+                            shaders I had created through shader graph weren't doing anything overly intensive, and more.
+                            <br><br>
+                            This was a project I wanted to focus on creating scalable and maintainable code. One of the ways in which I did this for the chracters was by using a state machine for all the behaviours.
+                            This does create an issue of having lots of classes that are hard to keep track of, however as long as I left appropriate comments and organised the file structure correctly it will stay neat. 
+                        </p>
                     </div>
                 </div>
                 <div class="ytvid1">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OPpKCNkx4J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/txBztHdaBO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
 
+        <!-- Fast Core -->
+        <a id="Fast Core"></a>
+        <div class="projectContainer">
+            <div class="projectCard">
+                <div class = "content2">
+                    <h4>Project Piece (2021)</h4>
+                    <h2>Fast Core</h2>
+                    <h3><span>Role: </span>Solo Developed
+                    <br><span>Tech Stack: </span>Unity, C#, Visual Studio.</h3>
+                    <div class="projectDetails">
+                        <p>
+                            Fast Core was an earlier project of mine, created before I was proficient in 'Blender' and 'Adobe illustrator'.
+                            <br><br>
+                            The code in this project was messy, a lack of comments, lots of overly embedded if statements, huge files, not much prior thought to code architecture.
+                            <br>
+                            For me it serves as a good example of what not to do.
+                            <br><br>
+                            Despite this, the game works and I had spent a reasonable amount of time polishing it. Which has lent itself to feeling quite fun.
+                            Learning to polish projects effectively is an important skill when building any kind of software. The art of making every action the user enacts, feel impactful in one sense or another.
+                            <br><br>
+                            Give it a try for yourself <a href = "https://lorellaro.itch.io/fastcore">Here!</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="ytVid2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Wg5UW5bGNaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>        
+            </div>
+        </div>
+
+        <!-- Clone Gunner -->
+        <a id="Clone Gunner"></a>
+        <div class="projectContainer">
+            <div class="projectCard">
+                <div class = "content">
+                    <h4>Project Piece (2021)</h4>
+                    <h2>Clone Gunner</h2>
+                    <h3><span>Role: </span>Lead Programmer, Visual Designer
+                    <br><span>Tech Stack: </span>Unity, C#, Visual Studio, Blender.</h3>
+                    <div class="projectDetails">
+                        <p>
+                            This was a 3 day game jam project I worked on with two other people. My teammates for this project had never done a game jam before, which encouraged me to take the lead on it.
+                            <br>
+                            That fact, certainly taught me patience under timed conditions.
+                            <br><br>
+                            Due to the short timeframe the code was definitely rushed as you could imagine.
+                            <br><br>
+                            Despite this, I believe the major flaw with the project is ultimately it's design. The idea needed more fleshing out and balancing. As it is, the gameplay feels very bland.
+                            <br><br>
+                            Now because of this I was happy to rank 7th in the Scorespace Game Jam. A major improvement on my previous scores, and it was with an inexperienced team.
+                            <br><br>
+                            The most important thing I learned from this project is the importance of checking in and out scenes and scripts. The amount of times my work was overridden by a team mate was unfortunate. 
+                            <br><br>
+                            Give it a try for yourself <a href = "https://lorellaro.itch.io/clonegunner">Here!</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="ytvid1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/k6ZJPULaHr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>        
+            </div>
+        </div>
+
+        <!-- Lebaniac -->
+        <a id="Lebaniac"></a>
         <div class="projectContainer">
 
             <div class="projectCard">
                 <div class = "content2">
-                    <h4>Project Piece</h4>
-                    <h2>Fast Core</h2>
+                    <h4>Project Piece (2021)</h4>
+                    <h2>Lebaniac</h2>
                     <h3><span>Role: </span>Solo Developed
-                    <br><span>Tech Stack: </span>Unity, C#, Visual Studio, Blender, Adobe Illustrator, Adobe Photoshop</h3>
+                    <br><span>Tech Stack: </span>Unity, C#, Visual Studio, Aseprite.</h3>
                     <div class="projectDetails">
-                        <p>Flick flipper is a mobile game I built over the period of a few months using Unity, C#, and 'Blender'.</p>
+                        <p>
+                            Lebaniac was the first project I made my own assets for and the first time I got real feedback on a project.
+                            <br><br>
+                            This taught me a lot about how to handle feedback and how to separate myself from my work (you can find reviews on the project's itch.io comment section linked below). As well as how to interpret feedback, as sometimes a user may complain about one thing ,
+                            when the issue they are trying to get at, is something entirely different.
+                            <br><br>
+                            This was a real independant learning curve for me as it was one of the first projects I didn't make by following a 'Udemy' tutorial the whole way through.
+                            <br><br>
+                            I don't dare look at the code for this project, as I can only imagine the horrors that would unfold!
+                            <br><br>
+                            Give it a try for yourself <a href = "https://lorellaro.itch.io/lebaniac">Here!</a>
+                        </p>
                     </div>
                 </div>
                 <div class="ytVid2">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FpV9mAGjiIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
-                </div>        
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OTdrl4kRlZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
 
@@ -114,14 +227,14 @@
     
         <ul>
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./index.html">About Me</a></li>
+            <li><a href="./AboutMe.html">About Me</a></li>
             <li><a href="./Projects.html">Projects</a></li>
             <li><a href="./Skills.html">Skills</a></li>
             <li><a href="./ContactMe.html">Contact Me</a></li>
         </ul>
     
         <div class="social">
-            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.instagram.com/lorellaro_games/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
             <a href="https://www.linkedin.com/in/lorenzo-scudellaro-10335a224/?original_referer=" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://lorellaro.itch.io/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-itch-io"></i></a>
         </div>

@@ -8,7 +8,7 @@ h3{
 }
 
 .projectHero{
-    height: 300vh;
+    height: 550vh;
     width: 100%;
     position: absolute;
     background-image: url(../images/projectsBgd.png);
@@ -21,7 +21,7 @@ h3{
     justify-content: center;
     align-items: center;
     min-height: 600px;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .content{
@@ -37,12 +37,12 @@ h3{
 
 .content p{
     color: #c5c6c7;
-    width: 62%;
+    width: 95%;
     margin-top: -15px;
 }
 
 .projectCard{
-    height: 565px;
+    height: 725px;
     width: 85%;
     padding: 20px 35px;
     background: #1f2833;
@@ -84,7 +84,7 @@ h3{
 
 .content2 p{
     color: #c5c6c7;
-    width: 62%;
+    width: 95%;
     margin-top: -15px;
 }
 
