@@ -2,6 +2,7 @@
     <head>
         <title>Lorenzo Scudellaro's Portfolio</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/AboutMeStyle.css">
         <link rel="preconnect"  href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100; 1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
@@ -9,18 +10,34 @@
     </head>
 
     <body>
-        <nav>
-            <h2 class="logo"><a href="./index.html"><span>Lorenzo's </span>Portfolio</a></h2>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./AboutMe.html">About Me</a></li>
-                <li><a href="./Projects.html">Projects</a></li>
-                <li><a href="./Skills.html">Skills</a></li>
-                <li><a href="./ContactMe.html">Contact Me</a></li>
-            </ul>
-        </nav>
+        <!--Nav-->
+        <div class = "projectHero">
+            <nav>
+                <h2 class="logo"><a href="./index.html"><span>Lorenzo's </span>Portfolio</a></h2>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./AboutMe.html">About Me</a></li>
+                    <li><a href="./Projects.html">Projects</a></li>
+                    <li><a href="./Skills.html">Skills</a></li>
+                    <li><a href="./ContactMe.html">Contact Me</a></li>
+                </ul>
+            </nav>
 
-        <h2>D.O.B: 19th October 2001 <br><br>I have been working using Unity since I was 16 and took my first 'Udemy' course on it. I've been addicted to the software ever since!</h2>
+            <!--About Section Start-->
+            <section class="About">
+                <div class="Card">
+                    <img src="./images/LorenzoPic.png">
+                    <div class ="About-text">
+                        <h2>About Me</h2>
+                        <h5>Developer <span>& Unity3d Enthusiast</span></h5>
+                        <p>D.O.B: 19th October 2001 <br><br>I have been working using Unity since I was 16 and took my first 'Udemy' course on it. I've been addicted to 
+                            the software ever since!</p>
+                        <div class="newsletter"> <a href="mailto:lorenzoscudellaro@gmail.com">Email Me</a> </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
     </body>
 
 </html>

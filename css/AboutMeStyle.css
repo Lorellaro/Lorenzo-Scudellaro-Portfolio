@@ -1,0 +1,71 @@
+.About{
+    background-color: #1f2833;
+    width: 70%;
+    padding: 100px 0px;
+
+    
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.Card{
+    width: 80%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    /*
+    height: 50%;
+    width: 45%;
+    background: #1f2833;
+    border-radius:10px;
+    margin: 0 auto;
+    position: relative;
+    padding:  30px;
+    transform: translateY(20%);
+    margin-bottom: 95px;
+    */
+}
+
+.Card img{
+    /*
+    margin-top: 3%;
+    justify-content: center;
+    width: 25%;
+    border-radius: 5%;
+    transform: translateX(150%);
+    box-shadow: 5px 5px#0b0c1044;
+    */
+    height: auto;
+    width: 430px;
+}
+
+.projectHero{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-image: url(../images/projectsBgd.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.About-text{
+    margin-left: 5%;
+    width: 95%
+}
+
+.About-text p{
+    
+    color: #c5c6c7;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.newsletter{
+    margin-bottom: 20px;
+}
