@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
 .hero{
     height: 100vh;
     width: 100%;
@@ -25,7 +30,7 @@ nav {
 
 .logo{
     color: #c5c6c7;
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 1px;
     cursor: pointer;
     transition: 0.3s;
@@ -189,6 +194,8 @@ h4{
 .about img{
     height: auto;
     width: 430px;
+    box-shadow: 5px 5px#0b0c1044;
+    border-radius: 5px;
 }
 
 .about-text{
@@ -442,4 +449,231 @@ footer ul li:hover{
     color: #c5c6c7;
     bottom: 20px;
     font-size: 14px;
+}
+
+@media(max-width: 920px){
+        /*Introduction*/
+
+    .hero{
+        height: 200vh;
+        width: 200%;
+    }
+    
+    .content{
+        position: absolute;
+        top: 100%;
+        left: 20%;
+    }
+
+    .logo{
+        font-size: 70px;
+        letter-spacing: 1px;
+    }
+
+    .newsletter a {
+        padding: 23px 40px;
+        border-radius: 0.1px;
+        font-size: 30px;
+    }
+    
+    .newsletter a:hover{
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 115px;
+    }
+    
+    h2{
+        font-size: 92px;
+    }
+    
+    h3{
+        font-size: 38px;
+        margin-bottom: 80px;
+        margin-top: 25px;
+    }
+    
+    h4{
+        letter-spacing: 2px;
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    button{
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        padding: 23px 40px;
+        border-radius: 0.1px;
+        font-size: 30px;
+    }
+
+    /*About Me*/
+
+    .about{
+        width: 200%;
+        padding: 100px 0px;
+    }
+
+    .main{
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        display: inline-block;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .about img{
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 530px;
+        border-radius: 5px;
+    }
+
+    .about-text{
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-text h5{
+        font-size: 34px;
+    }
+
+    .about-text p{
+        letter-spacing: 1px;
+        font-size: 28px;
+        line-height: 38px;
+        width: 110%;
+    }
+
+    /*My Projects*/
+    .service{
+        width: 200%;
+        padding: 100px 0px;
+    }
+
+    .box{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        min-height: 600px;
+    }
+    
+    .card{
+        height: auto;
+        width: 90%;
+        padding: 20px 35px;
+        margin: 15px;
+        position: relative;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+    
+    .card:hover{
+        transform: scale(1);
+    }
+
+    .card img{
+        width: 400px;
+        display: block;
+        border-radius: 16px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card h5{
+        font-size: 54px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .pra{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .pra p{
+        letter-spacing: 1px;
+        font-size: 28px;
+        line-height: 38px;
+        width: 75%;
+        transform: translateX(17%);
+        margin-bottom: 50px;
+    }
+
+    .card .button{
+        padding: 23px 40px;
+        border-radius: 0.1px;
+        font-size: 30px;
+    }
+
+    /* Contact Me */
+    .contact-me{
+        width: 200%;
+        height: 490px;
+    }
+    
+    .contact-me p{
+        font-size: 70px;
+        margin-bottom: 25px;
+    }
+    
+    .contact-me .button-two{
+        margin-top: 50px;
+        padding: 23px 40px;
+        font-size: 30px;
+    }
+
+    /*Footer*/
+    footer{
+        width: 200%;
+        height: 570px;
+    }
+    
+    footer p:nth-child(1){
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    
+    footer p:nth-child(2){
+        font-size: 26px;
+        width: 500px;
+        line-height: 36px;
+    }
+    
+    footer ul li{
+        margin: 10px 25px;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    
+    footer ul li a{
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    
+    .social a{
+        width: 90px;
+        height: 90px;
+
+        border: 1px solid #66fcf1;
+        margin: 52px 40px;
+        font-size: 50px;
+    }
+
+    .end{
+        font-size: 16px;
+    }
 }
