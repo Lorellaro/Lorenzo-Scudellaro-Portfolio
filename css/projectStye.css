@@ -217,6 +217,7 @@ br {
         font-size: 160px;
 
         margin-top: -160px;
+        margin-right: 80px;
         position: absolute;
         right: 0%;
         cursor: pointer;

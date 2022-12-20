@@ -1,23 +1,25 @@
+
 .About{
-    background-color: #1f2833;
-    width: 70%;
+    width: 80%;
     padding: 100px 0px;
 
-    
+    position: relative;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 5%;
 }
 
 .Card{
+    background-color: #1f2833;
     width: 80%;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 150px;
 
+    border-radius: 100px;
     /*
     height: 50%;
     width: 45%;
@@ -42,6 +44,8 @@
     */
     height: auto;
     width: 430px;
+    box-shadow: 5px 5px#0b0c1044;
+    border-radius: 5px;
 }
 
 .projectHero{
@@ -51,6 +55,14 @@
     background-image: url(../images/projectsBgd.png);
     background-size: cover;
     background-position: center;
+}
+
+.logo{
+    z-index: 2;
+}
+
+.navbarUL{
+    z-index: 2;
 }
 
 .About-text{
@@ -63,9 +75,203 @@
     color: #c5c6c7;
     margin-top: 20px;
     margin-bottom: 50px;
-    
+    width: 95%;
 }
 
 .newsletter{
     margin-bottom: 20px;
+}
+
+@media(max-width: 920px){
+    
+    .projectHero{
+        height: 400%;
+        width: 400%;
+    }
+
+    /*Base*/
+    h1{
+        font-size: 230px;
+    }
+    
+    h2{
+        font-size: 184px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    
+    h3{
+        font-size: 76px;
+        margin-bottom: 160px;
+        margin-top: 50px;
+    }
+    
+    h4{
+        letter-spacing: 4px;
+        font-size: 68px;
+        margin-bottom: 40px;
+    }
+
+    h5{
+        letter-spacing: 2px;
+        font-size: 68px;
+        margin-bottom: 40px;
+    }
+
+    p{
+        letter-spacing: 2px;
+        font-size: 68px;
+        margin-bottom: 40px;
+    }
+
+    #menu-icon{
+        right: 0;
+    }
+
+    .logo{
+        font-size: 126px;
+        letter-spacing: 1px;
+        z-index: 2;
+    }
+
+    /*Navbar*/
+    nav {
+        width: 100%;
+        display: block;
+    }
+
+    .navbarUL {
+        margin-top: -2200px;
+        background-color: #101117;
+        width: 64%;
+        transform: translateX(42%);
+        box-shadow: 5px 5px#0b0c1044;
+        position:absolute;
+        z-index: 2;
+        transition: 0.4s;
+    }
+
+    .navbarUL.active {
+        margin-top: 100px;
+
+    }
+
+    #menu-icon{
+        display: initial;
+        color: #66fcf1;
+        font-size: 160px;
+
+        margin-top: -240px;
+        margin-right: 80px;
+        position: absolute;
+        right: 0%;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    nav ul li{
+        position: relative;
+        display: block;
+
+    
+        padding-top:  90px;
+        padding-left: 8%;
+        padding-right: 8%;
+
+        font-size: 64px;
+
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    
+    nav ul a{
+        display: block;
+        padding: 30px;
+        border-left: 4px solid #66fcf1;
+        z-index: 2;
+    }
+
+    .newsletter{
+        margin-top: 200px;
+    }
+
+    .newsletter a {
+        padding: 50px 80px;
+        border-radius: 0.2px;
+        font-size: 60px;
+    }
+    
+    .newsletter a:hover{
+        font-size: 70px;
+    }
+    
+    .About{
+        width: 400%;
+    }
+
+    .Card{
+        width: 90%;
+        max-width: 95%;
+        margin: 0 auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 1px;
+        margin-top: 500px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .Card img{
+        height: auto;
+        width:90%;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    /*Footer*/
+    footer{
+        width: 400%;
+        height: 1140px;
+    }
+    
+    footer p:nth-child(1){
+        font-size: 100px;
+        margin-bottom: 100px;
+    }
+    
+    footer p:nth-child(2){
+        font-size: 52px;
+        width: 1000px;
+        line-height: 62px;
+    }
+    
+    footer ul li{
+        margin: 20px 50px;
+        margin-top: 40px;
+        font-size: 48px;
+    }
+    
+    footer ul li a{
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    
+    .social a{
+        width: 180px;
+        height: 180px;
+
+        border: 2px solid #66fcf1;
+        margin: 104px 80px;
+        font-size: 100px;
+    }
+    
+    .end{
+        font-size: 32px;
+    }
 }

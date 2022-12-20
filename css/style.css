@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+  margin: 0px;
+  background-color: #101117;
+}
+
 @viewport {
     width: device-width ;
     zoom: 1.0 ;
