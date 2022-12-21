@@ -52,3 +52,130 @@
 .newsletter{
     margin-bottom: 20px;
 }
+
+@media(max-width: 920px){
+    /*Base*/
+    .projectHero{
+        height: 220%;
+        width: 200%;
+    }
+
+    h1{
+        font-size: 115px;
+    }
+    
+    h2{
+        font-size: 72px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    
+    h3{
+        font-size: 38px;
+        margin-bottom: 160px;
+        margin-top: 50px;
+    }
+    
+    h4{
+        letter-spacing: 2px;
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    h5{
+        letter-spacing: 1px;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    p{
+        letter-spacing: 1px;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+        
+    #menu-icon{
+        right: 0;
+    }
+
+    .logo{
+        font-size: 58px;
+        letter-spacing: 1px;
+        z-index: 3;
+    }
+
+    /*Navbar*/
+    nav {
+        width: 100%;
+        display: block;
+    }
+
+    .navbarUL {
+        margin-top: -2200px;
+        width: 64%;
+        transform: translateX(42%);
+    }
+
+    .navbarUL.active {
+        margin-top: 50px;
+
+    }
+
+    #menu-icon{
+        display: initial;
+        color: #66fcf1;
+        font-size: 80px;
+
+        margin-top: -120px;
+        margin-right: 40px;
+        position: absolute;
+        right: 0%;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    /*page Specific*/
+    .Contact{
+        width: 170%;
+        background-color: transparent;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        transform: translateX(9%);
+    }
+    
+    .Card{
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 40%;
+
+
+    }
+
+    .Card img{
+        width: 80%;
+
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        transform: translateX(0);
+    }
+
+    .newsletter a{
+        font-size: 24px;
+    }
+
+    .newsletter{
+        margin-top: 10%;
+
+    }
+
+    .end{
+        transform: translateY(250%);
+    }
+}
