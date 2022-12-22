@@ -7,6 +7,21 @@ h3{
     padding: 100px 0px;
 }
 
+.allProjects h1{
+    position: relative;
+    color: whitesmoke;
+    font-size: 90px;
+    z-index: 2;
+    width: 100%;
+
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
 .projectHero{
     height: 550vh;
     width: 100%;
@@ -138,6 +153,12 @@ br {
         width: 400%;
     }
     
+    .allProjects h1{
+        margin-top: 400px;
+        margin-bottom: -150px;
+        font-size: 242px;
+    }
+    
     .projectHero{
         height: 2500%;
         width: 400%;
@@ -196,13 +217,13 @@ br {
     }
 
     .navbarUL {
-        margin-top: -1900px;
+        margin-top: -2100px;
         background-color: #101117;
         width: 64%;
         transform: translateX(42%);
         box-shadow: 5px 5px#0b0c1044;
         position:absolute;
-        z-index: 2;
+        z-index: 3;
         transition: 0.4s;
     }
 
