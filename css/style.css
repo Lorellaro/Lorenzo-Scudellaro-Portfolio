@@ -343,6 +343,49 @@ h5{
     transform: scale(1.05);
 }
 
+/*Educationn*/
+.education{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #1c2530;
+}
+
+.education-text{
+    width: 550px;
+}
+
+.education-main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.education-text h2{
+    color: whitesmoke;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.education-text h5{
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.education-text p{
+    color: #c5c6c7;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
 .contact-me{
     width: 100%;
     height: 290px;

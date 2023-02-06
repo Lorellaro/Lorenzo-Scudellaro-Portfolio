@@ -26,7 +26,8 @@ h3{
     height: 550vh;
     width: 100%;
     position: absolute;
-    background-image: url(../images/projectsBgd.png);
+/*    background-image: url(../images/projectsBgd.png);*/
+background-color: #45a29e;
     background-size: cover;
     background-position: center;
 }
