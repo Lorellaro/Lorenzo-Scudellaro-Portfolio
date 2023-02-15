@@ -9,7 +9,7 @@ h3{
 
 .allProjects h1{
     position: relative;
-    color: whitesmoke;
+    color: #66fcf1;
     font-size: 90px;
     z-index: 2;
     width: 100%;
@@ -27,7 +27,7 @@ h3{
     width: 100%;
     position: absolute;
 /*    background-image: url(../images/projectsBgd.png);*/
-background-color: #45a29e;
+    background-color: #181e26;
     background-size: cover;
     background-position: center;
 }
